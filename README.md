@@ -1,0 +1,9 @@
+# 2FaseResolucaoTarefas
+
+De forma a melhorar a apresentação da informação referida na “Spike de junção da 1º fase melhorada”, decidiu-se implementar uma Spike que apresentasse essa informação com a utilização de List Views.
+Ao iniciar a Spike o utilizador observa um menu que representa as diversas funcionalidades desta, nomeadamente a leitura do Qr Code, a ativação do reconhecimento de voz e a apresentação das diversas tarefas.
+A primeira funcionalidade leva o utilizador para uma janela que ao premir o botão de diminuir o som faz a leitura de um Qr Code; a segunda leva o utilizador para uma janela que faz um Speech to text, ou seja, obtém a informação dita pelo utilizador e apresenta-a; a terceira funcionalidade leva o utilizador para outro menu, este apresenta três opções, duas correspondem a  tarefas distintas, enquanto que a terceira opção permite ao utilizador voltar ao inicio da Spike. 
+Por um lado, a primeira tarefa corresponde á conceção de um bolo, esta foi especificada pelos orientadores. Esta tarefa apresenta quatro passos, estes são apresentados um a um com a seguinte ordem, “1. Passo  Preparação de ingredientes”; “2. Passo  Mistura de ingredientes”; “3. Passo  Coloque o bolo no forno”; “4. Passo  Finalizar o bolo”. 
+Por outro lado, a segunda tarefa corresponde á conceção de uma plantação de trigo, e tarefa apresenta quatro passos, estes são apresentados um a um com a seguinte ordem, “1. Passo  Compra de terreno”; “2. Passo  Preparação de terreno”; “3. Passo  Plantar trigo “4. Passo  Obter colheita”. 
+Em cada passo de cada tarefa, a sua navegação é feita ao clicar nos botões do som do android, ao aumentar o som o utilizador vai para o seguinte passo, enquanto que a diminuir o som o utilizador volta ao passo anterior. Também se encontra uma caixa de texto, esta informa o utilizador quanto ao estado de cada passo, “Feito” ou “Por fazer”. Com o finalizar de cada tarefa esse texto passa de “Por fazer” para “Feito”.
+
